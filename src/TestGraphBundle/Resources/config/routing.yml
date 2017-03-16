@@ -1,0 +1,4 @@
+test_graph:
+    path: /graph
+    defaults:  
+        _controller: TestGraphBundle:Default:index

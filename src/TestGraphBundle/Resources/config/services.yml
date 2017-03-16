@@ -1,0 +1,4 @@
+services:
+#    test_graph.example:
+#        class: TestGraphBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
