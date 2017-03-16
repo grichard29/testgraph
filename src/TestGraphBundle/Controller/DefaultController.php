@@ -20,7 +20,7 @@ class DefaultController extends Controller
 		);
 		
         $ob = new Highchart();
-        // ID de l'élement de DOM que vous utilisez comme conteneur
+        
         $ob->chart->renderTo('columnchart');
         $ob->title->text('Fréquentation des 15 dernières permanences');//OK
         $ob->chart->type('column');
