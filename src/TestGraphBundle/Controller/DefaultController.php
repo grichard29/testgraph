@@ -14,10 +14,10 @@ class DefaultController extends Controller
     public function indexAction()
     {	
 		$dates = array('03/03', '04/03', '10/03', '11/03', '17/03', '18/03', '24/03');
-		$frequentations = array(
+		$frequentations = array(array(
 			'name' => 'Fréquentations' ,
 			'data' => array(0, 2, 2, 7, 3, 1, 1)
-		);
+		));
 		
         $ob = new Highchart();
         
